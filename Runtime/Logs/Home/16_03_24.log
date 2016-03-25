@@ -1,0 +1,390 @@
+[ 2016-03-24T14:28:04+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000230s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010527s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000609s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013863s ]
+
+[ 2016-03-24T14:28:29+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000225s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000618s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001728s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002339s ]
+
+[ 2016-03-24T14:28:30+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000227s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000607s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001729s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002386s ]
+
+[ 2016-03-24T14:29:07+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000276s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003441s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000606s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001716s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002459s ]
+
+[ 2016-03-24T14:29:11+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000259s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000613s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001731s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002473s ]
+
+[ 2016-03-24T14:30:21+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000279s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003329s ]
+
+[ 2016-03-24T14:32:36+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000222s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002360s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/._header.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/._footer.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000595s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001702s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002817s ]
+
+[ 2016-03-24T14:32:37+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000281s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003146s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/._header.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/._footer.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000593s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001691s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003328s ]
+
+[ 2016-03-24T14:32:39+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000220s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003016s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/._header.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/._footer.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000597s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001689s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002790s ]
+
+[ 2016-03-24T14:32:40+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000260s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003801s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/._header.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/._footer.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000619s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002403s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003747s ]
+
+[ 2016-03-24T14:32:40+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000230s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002437s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/._header.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/._footer.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000604s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001715s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004617s ]
+
+[ 2016-03-24T14:32:45+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000274s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000610s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001717s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002414s ]
+
+[ 2016-03-24T14:34:16+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000221s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002734s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/..header.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/..footer.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000709s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004212s ]
+
+[ 2016-03-24T14:34:20+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000221s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002304s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/..header.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/..footer.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000615s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001766s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002233s ]
+
+[ 2016-03-24T14:55:31+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000233s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002537s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/..header.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/..footer.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000610s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002668s ]
+
+[ 2016-03-24T14:55:35+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000219s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003176s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/..header.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/..footer.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000605s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001694s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003299s ]
+
+[ 2016-03-24T14:55:35+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000568s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002398s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/..header.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/..footer.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000664s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002373s ]
+
+[ 2016-03-24T14:55:36+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000220s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002505s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/..header.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/..footer.tpl): failed to open stream: No such file or directory D:\wamp\www\tp\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000666s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003528s ]
+
+[ 2016-03-24T14:56:36+08:00 ] ::1 /tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000274s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000604s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001751s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002608s ]
+
