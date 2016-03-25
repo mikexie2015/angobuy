@@ -881,3 +881,24 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002410s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.003573s ]
 ERR: 非法操作:Tpl
 
+[ 2016-03-25T23:14:44+08:00 ] ::1 /angobuy/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007652s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\angobuy\Runtime\Cache\Home\710ead781a1e5255de838ae668b22133.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007428s ]
+

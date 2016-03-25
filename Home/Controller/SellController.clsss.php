@@ -13,4 +13,9 @@
  */
 class SellController {
     //put your code here
+    public function index() {
+        $product=M('product')->select();
+        p($product);
+        }
+    
 }
