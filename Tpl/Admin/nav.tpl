@@ -1,19 +1,3 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <link rel="stylesheet" type="text/css" href="./Tpl/Pub/Css/global.css" />
-    <link rel="stylesheet" type="text/css" href="./Tpl/Home/Css/common.css" />
-    <script type="text/javascript" src="./Tpl/Home/Js/common.js"></script>
-    <script type="text/javascript" src="./Tpl/Pub/Js/jquery.js"></script>
-    <title><?php echo ($module); ?></title>
-    <meta name="keywords" content=""/>
-    <meta name="description" content=""/>
-
-
-</head>
-    <body>
 <div class="sitenav clearfix">
         <div class="fl">
             <a class="mr10 ml10" href="/"><i class="icon-1"></i>首页</a>|
@@ -39,20 +23,3 @@
     </div>
 
 </div>
-
-<div class="main">
-    <div class="container1">
-        
-    </div>
-    <div class="container2">
-        
-    </div>
-    <div class="container3">
-        
-    </div>
-</div>
-<div class="foot">
-    
-</div>
-</body>
-</html>
