@@ -6,7 +6,7 @@ return array(
     'DB_HOST' => 'localhost',
     'DB_USER' => 'root',
     'DB_PWD' => '',
-    'DB_NAME' => 'tp',
+    'DB_NAME' => 'angobuy',
     'DB_PREFIX' => '',
     //'配置项'=>'配置值'
     'TMPL_TEMPLATE_SUFFIX' => '.tpl',

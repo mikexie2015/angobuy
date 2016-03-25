@@ -7,5 +7,7 @@
     <js file="__Js/common.js"/>
     <js file="__Pub/Js/jquery.js"/>
     <title>{$module}</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
 </head>
-<body>
+    <body>
