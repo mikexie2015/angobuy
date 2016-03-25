@@ -458,3 +458,426 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001493s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002845s ]
 
+[ 2016-03-25T17:11:03+08:00 ] ::1 /angobuy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000232s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002699s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000654s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001788s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\angobuy\Runtime\Cache\Home\710ead781a1e5255de838ae668b22133.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002626s ]
+
+[ 2016-03-25T17:18:19+08:00 ] ::1 /angobuy/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000232s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002789s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000668s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001814s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\angobuy\Runtime\Cache\Home\710ead781a1e5255de838ae668b22133.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016874s ]
+
+[ 2016-03-25T17:18:19+08:00 ] ::1 /angobuy/index.php/Home/Index/Tpl/Home/Css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000247s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003703s ]
+ERR: 非法操作:Tpl
+
+[ 2016-03-25T17:18:19+08:00 ] ::1 /angobuy/index.php/Home/Index/Tpl/Pub/Js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002994s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003059s ]
+ERR: 非法操作:Tpl
+
+[ 2016-03-25T17:18:19+08:00 ] ::1 /angobuy/index.php/Home/Index/Tpl/Home/Js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000235s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002680s ]
+ERR: 非法操作:Tpl
+
+[ 2016-03-25T17:18:19+08:00 ] ::1 /angobuy/index.php/Home/Index/Tpl/Pub/Js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000234s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003202s ]
+ERR: 非法操作:Tpl
+
+[ 2016-03-25T17:18:49+08:00 ] ::1 /angobuy/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000262s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000645s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001794s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\angobuy\Runtime\Cache\Home\710ead781a1e5255de838ae668b22133.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002530s ]
+
+[ 2016-03-25T17:18:49+08:00 ] ::1 /angobuy/index.php/Home/Index/Tpl/Pub/Js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000282s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004217s ]
+ERR: 非法操作:Tpl
+
+[ 2016-03-25T17:18:49+08:00 ] ::1 /angobuy/index.php/Home/Index/Tpl/Home/Css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000225s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003164s ]
+ERR: 非法操作:Tpl
+
+[ 2016-03-25T17:18:49+08:00 ] ::1 /angobuy/index.php/Home/Index/Tpl/Home/Js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000234s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004545s ]
+ERR: 非法操作:Tpl
+
+[ 2016-03-25T17:18:49+08:00 ] ::1 /angobuy/index.php/Home/Index/Tpl/Pub/Js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000278s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002544s ]
+ERR: 非法操作:Tpl
+
+[ 2016-03-25T17:22:37+08:00 ] ::1 /angobuy/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000234s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004293s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\angobuy\Runtime\Cache\Home\710ead781a1e5255de838ae668b22133.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.161174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.162373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006616s ]
+
+[ 2016-03-25T17:24:26+08:00 ] ::1 /angobuy/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000243s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000650s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001787s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\angobuy\Runtime\Cache\Home\710ead781a1e5255de838ae668b22133.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002535s ]
+
+[ 2016-03-25T17:24:27+08:00 ] ::1 /angobuy/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000224s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002499s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002488s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\angobuy\Runtime\Cache\Home\710ead781a1e5255de838ae668b22133.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002584s ]
+
+[ 2016-03-25T17:24:28+08:00 ] ::1 /angobuy/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000272s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000684s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001863s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\angobuy\Runtime\Cache\Home\710ead781a1e5255de838ae668b22133.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003722s ]
+
+[ 2016-03-25T17:24:35+08:00 ] ::1 /angobuy/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000389s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002630s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002734s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\angobuy\Runtime\Cache\Home\710ead781a1e5255de838ae668b22133.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002626s ]
+
+[ 2016-03-25T17:24:39+08:00 ] ::1 /angobuy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000226s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002771s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002488s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\angobuy\Runtime\Cache\Home\710ead781a1e5255de838ae668b22133.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002803s ]
+
+[ 2016-03-25T17:25:48+08:00 ] ::1 /angobuy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000227s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002516s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002496s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\angobuy\Runtime\Cache\Home\710ead781a1e5255de838ae668b22133.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003979s ]
+
+[ 2016-03-25T17:26:29+08:00 ] ::1 /angobuy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000229s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000647s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001789s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\angobuy\Runtime\Cache\Home\710ead781a1e5255de838ae668b22133.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002614s ]
+
+[ 2016-03-25T17:26:29+08:00 ] ::1 /angobuy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000226s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024692s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002599s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\angobuy\Runtime\Cache\Home\710ead781a1e5255de838ae668b22133.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002797s ]
+
+[ 2016-03-25T17:26:38+08:00 ] ::1 /angobuy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000227s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000646s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001805s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\angobuy\Runtime\Cache\Home\710ead781a1e5255de838ae668b22133.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003274s ]
+
+[ 2016-03-25T17:28:50+08:00 ] ::1 /angobuy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000230s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000713s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001883s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\angobuy\Runtime\Cache\Home\710ead781a1e5255de838ae668b22133.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002838s ]
+
+[ 2016-03-25T17:29:09+08:00 ] ::1 /angobuy/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000229s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002706s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000674s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001988s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\angobuy\Runtime\Cache\Home\710ead781a1e5255de838ae668b22133.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002916s ]
+
+[ 2016-03-25T17:29:09+08:00 ] ::1 /angobuy/Home/Index/Tpl/Pub/Js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000233s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004044s ]
+ERR: 非法操作:Tpl
+
+[ 2016-03-25T17:29:09+08:00 ] ::1 /angobuy/Home/Index/Tpl/Home/Js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000246s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003229s ]
+ERR: 非法操作:Tpl
+
+[ 2016-03-25T17:29:09+08:00 ] ::1 /angobuy/Home/Index/Tpl/Home/Css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000250s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004676s ]
+ERR: 非法操作:Tpl
+
+[ 2016-03-25T17:29:09+08:00 ] ::1 /angobuy/Home/Index/Tpl/Pub/Js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000221s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003573s ]
+ERR: 非法操作:Tpl
+

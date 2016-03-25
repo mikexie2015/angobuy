@@ -2,11 +2,12 @@
 
 namespace Home\Controller;
 
-use Common\Controller\CommonController;
+use Think\Controller;
 
-class IndexController extends CommonController {
+class IndexController extends Controller{
 
     public function index() {
+//        echo U('admin/index/index');
         $this->display();
     }
 

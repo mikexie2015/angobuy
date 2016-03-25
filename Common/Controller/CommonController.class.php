@@ -20,6 +20,9 @@ class CommonController extends Controller {
 
     function _initialize() {
         $this->module = MODULE_NAME;
+        if (!isset($_SESSION['uid']) || !isset($_SESSION['username'])) {
+            $this->redirect('Home/Index/index');
+        }
     }
 
 }
