@@ -1,12 +1,12 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <link rel="stylesheet" type="text/css" href="./Tpl/Pub/Css/global.css" />
-    <link rel="stylesheet" type="text/css" href="./Tpl/Home/Css/common.css" />
-    <script type="text/javascript" src="./Tpl/Home/Js/common.js"></script>
-    <script type="text/javascript" src="./Tpl/Pub/Js/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="/angobuy/Tpl/Pub/Css/global.css" />
+    <link rel="stylesheet" type="text/css" href="/angobuy/Tpl/Home/Css/common.css" />
+    <script type="text/javascript" src="/angobuy/Tpl/Home/Js/common.js"></script>
+    <script type="text/javascript" src="/angobuy/Tpl/Pub/Js/jquery.js"></script>
     <title><?php echo ($module); ?></title>
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
@@ -37,7 +37,18 @@
             |<span class="orange ml10 mr10">交易时间(工作日) : 9:00-17:30</span>
             |<span class="ml10"><a target="_blank" href="/subject/list/3.html">资讯中心</a></span></div>
     </div>
-
+<div class="top">
+    <div class="banner">
+        <img alt="banner" src='http://www.gouanquan.net/file/upload/201512/28/13-12-28-81-1.gif'/>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href='<?php echo U('home/index/index');?>'>首页</a></li>
+            <li><a href='<?php echo U('home/sell/index');?>'>供应</a></li>
+            <li><a href='<?php echo U('home/bid/index');?>'>求购</a></li>
+            <li><a href='<?php echo U('home/about/index');?>'>关于</a></li>
+        </ul>
+    </div>
 </div>
 
 <div class="main">

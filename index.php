@@ -21,6 +21,7 @@ define('APP_DEBUG', True);
 define('APP_PATH', './');
 //define('BIND_MODULE', 'Admin');
 define('TMPL_PATH', './Tpl/');
+define('TPL_PATH', '/Tpl/');
 define('PIC_PATH', './Pic/');
 // 引入ThinkPHP入口文件
 require './Core/core.php';

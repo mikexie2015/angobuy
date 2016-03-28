@@ -21,5 +21,16 @@
             |<span class="orange ml10 mr10">交易时间(工作日) : 9:00-17:30</span>
             |<span class="ml10"><a target="_blank" href="/subject/list/3.html">资讯中心</a></span></div>
     </div>
-
+<div class="top">
+    <div class="banner">
+        <img alt="banner" src='http://www.gouanquan.net/file/upload/201512/28/13-12-28-81-1.gif'/>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href='{:U('home/index/index')}'>首页</a></li>
+            <li><a href='{:U('home/sell/index')}'>供应</a></li>
+            <li><a href='{:U('home/bid/index')}'>求购</a></li>
+            <li><a href='{:U('home/about/index')}'>关于</a></li>
+        </ul>
+    </div>
 </div>
