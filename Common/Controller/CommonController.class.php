@@ -21,7 +21,7 @@ class CommonController extends Controller {
     function _initialize() {
         $this->module = MODULE_NAME;
         if (!isset($_SESSION['uid']) || !isset($_SESSION['username'])) {
-            $this->redirect('Home/Index/index');
+            $this->redirect('Home/Index/index','',5,'没有权限,3秒后跳转');
         }
     }
 
