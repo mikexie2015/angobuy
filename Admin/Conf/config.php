@@ -1,4 +1,12 @@
 <?php
+
 return array(
-	//'配置项'=>'配置值'
+    'TMPL_PARSE_STRING' => array(
+        '__Css' => __ROOT__ . TMPL_PATH . 'Admin/Css',
+        '__Js' => __ROOT__ . TMPL_PATH . 'Admin/Js',
+        '__Pub' => __ROOT__ . TMPL_PATH . 'Pub',
+    ),
+    //'配置项'=>'配置值'
+    'LAYOUT_ON' => TRUE,
+    'LAYOUT_NAME' => 'layout',
 );

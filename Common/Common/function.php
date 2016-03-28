@@ -6,6 +6,6 @@
  * and open the template in the editor.
  */
 function p($array) {
-    dump($array, 0, '<pre>', TRUE);
+   echo '<pre>'.print_r($array, TRUE).'<pre>';
 }
 ?>

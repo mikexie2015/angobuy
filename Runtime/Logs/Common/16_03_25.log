@@ -4,3 +4,15 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000242s ]
 INFO: [ app_init ] --END-- [ RunTime:0.002922s ]
 ERR: 无法加载模块:Images
 
+[ 2016-03-25T23:15:01+08:00 ] ::1 /angobuy/sell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+ERR: 无法加载模块:Sell
+
+[ 2016-03-25T23:57:26+08:00 ] ::1 /angobuy/sell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+ERR: 无法加载模块:Sell
+
