@@ -67,3 +67,46 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
 
+[ 2016-04-10T01:45:51+08:00 ] ::1 /angobuy/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004394s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-04-10T01:46:16+08:00 ] ::1 /angobuy/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004401s ]
+ERR: 1146:Table 'angobuy.hooks' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hooks`
+ERR: 1146:Table 'angobuy.hooks' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hooks`
+
+[ 2016-04-10T01:46:33+08:00 ] ::1 /angobuy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004171s ]
+ERR: 1146:Table 'angobuy.hooks' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hooks`
+ERR: 1146:Table 'angobuy.hooks' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hooks`
+
+[ 2016-04-10T01:50:43+08:00 ] ::1 /angobuy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003926s ]
+SQL: SHOW COLUMNS FROM `hooks` [ RunTime:0.0074s ]
+SQL: SELECT `name`,`addons` FROM `hooks`  [ RunTime:0.0003s ]
+
