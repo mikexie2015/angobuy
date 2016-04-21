@@ -1,69 +1,103 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <link rel="stylesheet" type="text/css" href="/angobuy/Tpl/Pub/Css/global.css" />
-    <link rel="stylesheet" type="text/css" href="/angobuy/Tpl/Home/Css/common.css" />
-    <script type="text/javascript" src="/angobuy/Tpl/Home/Js/common.js"></script>
-    <script type="text/javascript" src="/angobuy/Tpl/Pub/Js/jquery.js"></script>
-    <title><?php echo ($module); ?></title>
-    <meta name="keywords" content=""/>
-    <meta name="description" content=""/>
-
+<head>
+	<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="/angobuy/Tpl/Pub/Css/global.css" />
+<script type="text/javascript" src="/angobuy/Tpl/Pub/Js/jquery.min.js"></script>
+<title>首页</title>
+<!-- 页面header钩子，一般用于加载插件CSS文件和代码 -->
+<?php echo hook('pageHeader');?>
 
 </head>
-    <body>
-<div class="sitenav clearfix">
-        <div class="fl">
-            <a class="mr10 ml10" href="/"><i class="icon-1"></i>首页</a>|
-            <a rel="nofollow" class="mr10 ml10 sn-b-j" href="javascript:void(0)"><i class="icon-2"></i>关注我们
-            </a>|<a rel="nofollow" class="orange mr10 ml10" href="/login.html">请登录</a><a rel="nofollow" href="/register/register.html">免费注册</a>
-        </div>
-        <div class="fr">
-            <div class="myuser fl">
-            <a rel="nofollow" class="myuser_name" href="/user.html">会员中心</a>
-                <div class="message">
-                    <ul>
-                        <li><a rel="nofollow" href="/user/supply_order.html">待确认销售订单(<span>0</span>)</a></li>
-                        <li><a rel="nofollow" href="/user/order.html">待确认采购订单(<span>0</span>)</a></li>
-                        <!--<li><a href="/user/supply_order.html">销售管理</a></li>-->
-                        <!--<li><a href="/user/order.html">采购管理</a></li>-->
-                        <!--<li><a href="/user/order.html">账号管理</a></li>-->
-                    </ul>
-                </div>
-            </div>
-            |<span class="orange ml10 mr10">交易热线 :<a class="orange" href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&amp;key=XzkzODA0ODY1OV8yMTMxNTZfNDAwOTkxMTkwMF8yXw" target="_blank" rel="nofollow">4009-911-900</a></span>
-            |<span class="orange ml10 mr10">交易时间(工作日) : 9:00-17:30</span>
-            |<span class="ml10"><a target="_blank" href="/subject/list/3.html">资讯中心</a></span></div>
-    </div>
-<div class="top">
-    <div class="banner">
-        <img alt="banner" src='http://www.gouanquan.net/file/upload/201512/28/13-12-28-81-1.gif'/>
-    </div>
-    <div class="nav">
+<body>
+	<!-- 头部 -->
+	<!-- 导航条
+================================================== -->
+<div class="nav">
+    <div class="fl">
         <ul>
-            <li><a href='<?php echo U('home/index/index');?>'>首页</a></li>
-            <li><a href='<?php echo U('home/sell/index');?>'>供应</a></li>
-            <li><a href='<?php echo U('home/bid/index');?>'>求购</a></li>
-            <li><a href='<?php echo U('home/about/index');?>'>关于</a></li>
+            <li><a href='<?php echo U("index/index");?>'>首页</a></li>
+            <li>关注我们</li>
+            <li><a href="">请登录</a></li>
+            <li><a href="">免费注册</a></li>
+        </ul>
+    </div>
+    <div class="fr">
+        <ul>
+            <li><a href="">会员中心</a></li>
+            <li><span>交易热线:400-800-8888</span></li>
+            <li><a href="">交易资讯</a></li>
         </ul>
     </div>
 </div>
 
-<div class="main">
-    <div class="container1">
+	<!-- /头部 -->
+	
+	<!-- 主体 -->
+	
+    <header class="jumbotron subhead" id="overview">
+        <div class="container">
+            <h2>源自相同起点，演绎不同精彩！</h2>
+            <p class="lead"></p>
+        </div>
+    </header>
+
+<div id="main-container" class="container">
+    <div class="row">
         
+<!-- 左侧 nav
+================================================== -->
+    <div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav">
+            <?php echo W('Category/lists', array(1, true));?>
+        </ul>
     </div>
-    <div class="container2">
+
         
+    <div class="span9">
+        <!-- Contents
+        ================================================== -->
+        
+
+        </section>
     </div>
-    <div class="container3">
-        
+
     </div>
 </div>
-<div class="foot">
-    
+
+<script type="text/javascript">
+    $(function(){
+        $(window).resize(function(){
+            $("#main-container").css("min-height", $(window).height() - 343);
+        }).resize();
+    })
+</script>
+	<!-- /主体 -->
+
+	<!-- 底部 -->
+	
+    <!-- 底部
+    ================================================== -->
+    <footer class="footer">
+      <div class="container">
+          <p> 本站由 <strong><a href="http://www.onethink.cn" target="_blank">Angobuy</a></strong> 强力驱动</p>
+      </div>
+    </footer>
+
+
+ <!-- 用于加载js代码 -->
+<!-- 页面footer钩子，一般用于加载插件JS文件和JS代码 -->
+<?php echo hook('pageFooter', 'widget');?>
+<div class="hidden"><!-- 用于加载统计代码等隐藏元素 -->
+	
 </div>
 </body>
 </html>
+	<!-- /底部 -->
+</body>
+</html>
+<!--
+
+{__CONTENT__}
+
+-->

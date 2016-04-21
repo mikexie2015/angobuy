@@ -1,0 +1,112 @@
+[ 2016-04-10T00:05:53+08:00 ] ::1 /angobuy/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004921s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/Public/var.tpl): failed to open stream: No such file or directory /Applications/MAMP/htdocs/angobuy/Core/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/./header.tpl): failed to open stream: No such file or directory /Applications/MAMP/htdocs/angobuy/Core/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/./footer.tpl): failed to open stream: No such file or directory /Applications/MAMP/htdocs/angobuy/Core/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004439s ]
+
+[ 2016-04-10T00:05:54+08:00 ] ::1 /angobuy/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/Public/var.tpl): failed to open stream: No such file or directory /Applications/MAMP/htdocs/angobuy/Core/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/./header.tpl): failed to open stream: No such file or directory /Applications/MAMP/htdocs/angobuy/Core/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/./footer.tpl): failed to open stream: No such file or directory /Applications/MAMP/htdocs/angobuy/Core/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2016-04-10T00:05:55+08:00 ] ::1 /angobuy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/Public/var.tpl): failed to open stream: No such file or directory /Applications/MAMP/htdocs/angobuy/Core/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/./header.tpl): failed to open stream: No such file or directory /Applications/MAMP/htdocs/angobuy/Core/Library/Think/Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/./footer.tpl): failed to open stream: No such file or directory /Applications/MAMP/htdocs/angobuy/Core/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-04-10T01:45:51+08:00 ] ::1 /angobuy/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004394s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-04-10T01:46:16+08:00 ] ::1 /angobuy/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004401s ]
+ERR: 1146:Table 'angobuy.hooks' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hooks`
+ERR: 1146:Table 'angobuy.hooks' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hooks`
+
+[ 2016-04-10T01:46:33+08:00 ] ::1 /angobuy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004171s ]
+ERR: 1146:Table 'angobuy.hooks' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hooks`
+ERR: 1146:Table 'angobuy.hooks' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hooks`
+
+[ 2016-04-10T01:50:43+08:00 ] ::1 /angobuy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003926s ]
+SQL: SHOW COLUMNS FROM `hooks` [ RunTime:0.0074s ]
+SQL: SELECT `name`,`addons` FROM `hooks`  [ RunTime:0.0003s ]
+

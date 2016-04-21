@@ -7,6 +7,6 @@ return array(
         '__Js' => __ROOT__.TPL_PATH . 'Home/Js',
         '__Pub' => __ROOT__.TPL_PATH . 'Pub',
     ),
-    'LAYOUT_ON' => TRUE,
-    'LAYOUT_NAME' => 'layout',
+//    'LAYOUT_ON' => TRUE,
+//    'LAYOUT_NAME' => 'layout',
 );
