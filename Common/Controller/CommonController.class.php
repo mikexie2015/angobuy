@@ -15,14 +15,18 @@
 namespace Common\Controller;
 
 use Think\Controller;
+use Think\Auth;
 
 class CommonController extends Controller {
 
-    function _initialize() {
+    protected function _initialize() {
         $this->module = MODULE_NAME;
-        if (!isset($_SESSION['uid']) || !isset($_SESSION['username'])) {
-            $this->redirect('Home/Index/index','',5,'没有权限,3秒后跳转');
-        }
+//        if (!isset($_SESSION['uid']) || !isset($_SESSION['username'])) {
+//            $this->redirect('Home/Index/index', '', 5, '没有权限,3秒后跳转');}
+    }
+
+    public function checkRule() {
+        $auth = new Auth();
     }
 
 }
