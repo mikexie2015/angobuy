@@ -1,4 +1,5 @@
 <?php
+
 // +----------------------------------------------------------------------
 // | ThinkPHP [ WE CAN DO IT JUST THINK IT ]
 // +----------------------------------------------------------------------
@@ -8,36 +9,41 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
+
 namespace Common\Behavior;
+
 use Think\Behavior;
 use Think\Hook;
+
 defined('THINK_PATH') or exit();
 
 // 初始化钩子信息
 class InitHookBehavior extends Behavior {
 
     // 行为扩展的执行入口必须是run
-    public function run(&$content){
-        if(isset($_GET['m']) && $_GET['m'] === 'Install') return;
-        
+    public function run(&$content) {
+        if (isset($_GET['m']) && $_GET['m'] === 'Install')
+            return;
+
         $data = S('hooks');
-        if(!$data){
+        if (!$data) {
             $hooks = M('Hooks')->getField('name,addons');
             foreach ($hooks as $key => $value) {
-                if($value){
-                    $map['status']  =   1;
-                    $names          =   explode(',',$value);
-                    $map['name']    =   array('IN',$names);
+                if ($value) {
+                    $map['status'] = 1;
+                    $names = explode(',', $value);
+                    $map['name'] = array('IN', $names);
                     $data = M('Addons')->where($map)->getField('id,name');
-                    if($data){
+                    if ($data) {
                         $addons = array_intersect($names, $data);
-                        Hook::add($key,$addons);
+                        Hook::add($key, $addons);
                     }
                 }
             }
-            S('hooks',Hook::get());
-        }else{
-            Hook::import($data,false);
+            S('hooks', Hook::get());
+        } else {
+            Hook::import($data, false);
         }
     }
+
 }

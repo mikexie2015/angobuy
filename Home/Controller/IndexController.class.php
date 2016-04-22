@@ -1,7 +1,7 @@
 <?php
 
 namespace Home\Controller;
-
+use Think\Hook;
 use Think\Controller;
 
 class IndexController extends Controller {
@@ -11,7 +11,6 @@ class IndexController extends Controller {
 //        $param='123';
 //        echo md5($param);die;
 //        $hooks = M('Hooks')->getField('name,addons');
-//        p($hooks);die;
         $this->display();
     }
 
