@@ -18,7 +18,7 @@ use Think\Controller;
 use Think\Auth;
 
 class CommonController extends Controller {
-
+    public $module='';
     protected function _initialize() {
         $this->module = MODULE_NAME;
         

@@ -2,9 +2,9 @@
 
 namespace Home\Controller;
 use Think\Hook;
-use Think\Controller;
+use Common\Controller\CommonController;
 
-class IndexController extends Controller {
+class IndexController extends CommonController {
 
     public function index() {
 //        echo U('admin/index/index');
