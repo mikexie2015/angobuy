@@ -7,7 +7,7 @@ use Common\Controller\CommonController;
 class IndexController extends CommonController{
 
     public function index() {
-        $this->display();
+        echo '这是后台';
     }
 
 }

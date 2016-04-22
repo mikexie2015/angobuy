@@ -12,7 +12,7 @@ return array(
     //'配置项'=>'配置值'
 //    'TMPL_TEMPLATE_SUFFIX' => '.tpl',
 //    'TMPL_FILE_DEPR'        =>  '.',
-    'URL_MODEL'=>2,
+//    'URL_MODEL'=>2,
 //    'URL_HTML_SUFFIX'=>'html',
 //    配置public文件夹路径
 );

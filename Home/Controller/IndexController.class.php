@@ -11,6 +11,7 @@ class IndexController extends Controller {
 //        $param='123';
 //        echo md5($param);die;
 //        $hooks = M('Hooks')->getField('name,addons');
+        p(S('hooks'));die;
         $this->display();
     }
 
