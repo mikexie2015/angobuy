@@ -22,6 +22,7 @@ define('APP_PATH', './App/');
 define('TMPL_PATH', './Tpl/');
 define('TPL_PATH', '/Tpl/');
 define('PIC_PATH', './Pic/');
+define('RUNTIME_PATH', './Runtime/');
 // 引入ThinkPHP入口文件
 require './Core/core.php';
 

@@ -1,10 +1,11 @@
 <?php
 
 namespace Home\Controller;
-use Think\Hook;
-use Common\Controller\CommonController;
 
-class IndexController extends CommonController {
+use Think\Hook;
+use Think\Controller;
+
+class IndexController extends Controller {
 
     public function index() {
 //        echo U('admin/index/index');
