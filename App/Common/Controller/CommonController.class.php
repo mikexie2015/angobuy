@@ -18,10 +18,13 @@ use Think\Controller;
 use Think\Auth;
 
 class CommonController extends Controller {
-    public $module='';
+
+    public $title = '';
+
     protected function _initialize() {
-        $this->module = MODULE_NAME;
-        
+        $this->title =ACTION_NAME.'--'.CONTROLLER_NAME.'--'.MODULE_NAME;
+        $this->assign('title', $this->title);
+
 //        if (!isset($_SESSION['uid']) || !isset($_SESSION['username'])) {
 //            $this->redirect('admin/login/index', '', 3, '没有权限,3秒后跳转');
 //        }
